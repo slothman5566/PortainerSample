@@ -1,0 +1,6 @@
+@PortainerSample_HostAddress = http://localhost:5096
+
+GET {{PortainerSample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
