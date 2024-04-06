@@ -33,5 +33,11 @@ app.MapGet("api/v2/test", () =>
 })
 .WithOpenApi();
 
+app.MapGet("api/v3/test", () =>
+{
+    return "Hello World!!!";
+})
+.WithOpenApi();
+
 app.Run();
 
