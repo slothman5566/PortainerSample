@@ -2,8 +2,8 @@ version: '3.8'
 
 services:
   portainer-sample:
-    build:
-      dockerfile: ./PortainerSample/Dockerfile
+    image: docker pull ghcr.io/slothman5566/portainer-sample:latest
+    restart: always
     ports:
       - "8080:8080"
     environment:
