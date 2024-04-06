@@ -35,7 +35,7 @@ app.MapGet("api/v2/test", () =>
 
 app.MapGet("api/v3/test", () =>
 {
-    return "Hello World!!!";
+    return "Hello World!!!!";
 })
 .WithOpenApi();
 
