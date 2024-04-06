@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   portainer-sample:
-    image: docker pull ghcr.io/slothman5566/portainer-sample:latest
+    image: ghcr.io/slothman5566/portainer-sample:latest
     restart: always
     ports:
       - "8080:8080"
